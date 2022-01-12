@@ -15,11 +15,11 @@ Then just download the .py files and run asciicam.py.
 The script can display images and videos.
 When no parameter is given it tries to use a webcam. This may require root to run and depends on your system. 
 
-Show image:
+## Show image
 ```bash
 python asciicam.py path/to/image.jpg
 ```
-Show video:
+## Show video
 ```bash
 python asciicam.py path/to/video.mp4
 ```
@@ -27,13 +27,13 @@ Notice that the display speed of the video depends on the size of the terminal.
 The larger the Terminal the slower the video.
 It may get even slower if you are watching the video over a ssh connection.
 
-Show video from Url:
-
+## Show video from Url
 The url has to end with a video file format (like .mp4 or .avi) in order to function.
 This can easily be fixed if you want to change the script a little bit.
 ```bash
 python asciicam.py http://www.domain.com/path/to/video.mp4
 ```
+## Use webcam
 With no parameters OpenCV tries to open your webcam. In order to do this you may need to run the script as root.
 ```bash
 sudo python asciicam.py
