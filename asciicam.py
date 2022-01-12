@@ -54,17 +54,18 @@ def showAsciiVideo(captureObject):
    return
   showAsciiImage(img)
 
-if len(sys.argv) > 1:
- filename = sys.argv[1]
+if __name__ == "__main__":
+ if len(sys.argv) > 1:
+  filename = sys.argv[1]
 
- if isImage(filename):
-  img = cv2.imread(filename)
-  showAsciiImage(img)
+  if isImage(filename):
+   img = cv2.imread(filename)
+   showAsciiImage(img)
 
- if isVideo(filename):
-  cap = cv2.VideoCapture(filename)
-  showAsciiVideo(cap)
+  if isVideo(filename):
+   cap = cv2.VideoCapture(filename)
+   showAsciiVideo(cap)
 
-else:
- cam = cv2.VideoCapture(0)
- showAsciiVideo(cam)
+ else:
+  cam = cv2.VideoCapture(0)
+  showAsciiVideo(cam)
