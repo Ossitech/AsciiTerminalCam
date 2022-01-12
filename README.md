@@ -28,6 +28,7 @@ The larger the Terminal the slower the video.
 It may get even slower if you are watching the video over a ssh connection.
 
 Show video from Url:
+
 The url has to end with a video file format (like .mp4 or .avi) in order to function.
 This can easily be fixed if you want to change the script a little bit.
 ```bash
