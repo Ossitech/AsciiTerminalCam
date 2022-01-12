@@ -1,5 +1,5 @@
 # AsciiTerminalCam
-A python 3 script for displaying images, videos and life video in the linux terminal using OpenCV.
+A python 3 script for displaying images, videos and live video in the linux terminal using OpenCV.
 It only supports terminals which can display the full RGB color range, but most modern terminals are able to do this.
 
 # Installation
